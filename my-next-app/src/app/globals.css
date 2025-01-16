@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Example custom class */
+.custom-class {
+    background-color: #f0f0f0; /* Custom background color */
+    padding: 1rem; /* Custom padding */
+    border-radius: 8px; /* Custom border radius */
+}
+
+/* Responsive text size */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem; /* Smaller font size on smaller screens */
+    }
+}
+
+html,
+
+:host {
+    -webkit-text-size-adjust: 100%; /* For older browsers that require the prefix */
+    text-size-adjust: 100%; /* Standard property for modern browsers */
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
