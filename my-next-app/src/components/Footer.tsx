@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.rights}>
-                    Nimra Talha © 2024. All Rights Reserved.
+                     © 2024. All Rights Reserved.
                 </div>
                 <div className={styles.socialIcons}>
                     <a 
