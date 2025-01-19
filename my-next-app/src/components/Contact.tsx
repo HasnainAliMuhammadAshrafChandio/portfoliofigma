@@ -11,11 +11,11 @@ const Contact: React.FC = () => {
                 <h2 className={styles.contactHeading}>Contact Information</h2>
                 <div className={styles.infoItem}>
                     <FaEnvelope className={styles.icon} /> {/* Email icon */}
-                    <span className={styles.infoText}>nimratalha@gmail.com</span>
+                    <span className={styles.infoText}>info@gmail.com</span>
                 </div>
                 <div className={styles.infoItem}>
                     <FaPhone className={styles.icon} /> {/* Phone icon */}
-                    <span className={styles.infoText}>+923349766531</span>
+                    <span className={styles.infoText}>+92222222222</span>
                 </div>
             </div>
             <form className={styles.contactForm}>
